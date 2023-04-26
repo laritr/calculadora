@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CALCULADORA</title>
+  <link rel="stylesheet" href="../css/calculadora.css">
+  </head>
+
+  <body>
+    <div class="base">
+        <nav>
+          <div class="logo">
+            <h1>IMC</h1>
+          </div>
+        <ul>
+          <div class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/alimentação.html">Alimentação</a></li>
+          <li><a href="../calculadora.html">Calculadora</a></li>
+          </div>
+        </ul>
+        </nav>
+        <br>
+        <hr>
+        <img class= "img3" src="../img/peso.png">
+        <main class="main">
+            <section class="calc-imc">
+              <h1>Calculadora IMC</h1>
+              <form class="form" id="form">
+                <label for="kilos">
+                  QUILOS
+                  <input name="kilos" id="kilos" placeholder="Peso atual" type="number" />
+                </label>
+                <label for="idade">
+                  IDADE
+                  <input name="idade" id="idade" placeholder="Sua idade" type="number" />
+                </label>
+                <label for="altura">
+                  ALTURA
+                  <input
+                    name="altura"
+                    id="altura"
+                    placeholder="Altura em centímetros"
+                    type="number"
+                  />
+                </label>
+                <label for="imc">
+                  IMC
+                  <input disabled="disabled" name="imc" id="imc" />
+                </label>
+               
+                <button>Calcular</button>
+              </form>
+            </section>
+          </main>
+          <script src="../js/script.js"></script>
+          </div>
+  </body>
+</html>
