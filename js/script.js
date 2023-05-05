@@ -13,7 +13,7 @@ function imc () {
     let classificacao = '';
         
     if (idade > 60) {
-        if (imc <= 18.5) {
+        if (valorIMC <= 18.5) {
             classificacao = "Baixo Peso";
         } else if (valorIMC >= 18.5 && valorIMC < 24.9) {
             classificacao = "Adequado ou eutrófico";
@@ -26,7 +26,7 @@ function imc () {
         
     else if (idade >= 18 && idade <= 59) {
         if (valorIMC <= 18.5) {
-            classificacao = 'abaixo do peso'
+            classificacao = 'abaixo do peso';
         }
         else if (valorIMC > 18.5 && valorIMC <= 24.9){
             classificacao = 'Peso normal';
@@ -43,7 +43,7 @@ function imc () {
     }
         
     else {
-        if (imc < 18.5) {
+        if (valorIMC < 18.5) {
             classificacao = "Baixo Peso";
         } else if (valorIMC >= 18.5 && valorIMC < 24.9) {
             classificacao = "Peso Normal";
